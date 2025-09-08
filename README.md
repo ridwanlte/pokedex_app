@@ -41,14 +41,14 @@ Running to debug
 
 create keystore
 ```bash
-keytool -genkey -v -keystore android/app/news_app.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias news_app
+keytool -genkey -v -keystore android/app/pokedex.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias pokedex
 ```
 then fill in the same form as below
 ```bash
 What is your first and last name?
-  [Unknown]:  Pokdex
+  [Unknown]:  Pokedex
 What is the name of your organizational unit?
-  [Unknown]:  Pokdex
+  [Unknown]:  Pokedex
 What is the name of your organization?
   [Unknown]:  Pokedex
 What is the name of your City or Locality?
@@ -57,7 +57,7 @@ What is the name of your State or Province?
   [Unknown]:  Indoonesia
 What is the two-letter country code for this unit?
   [Unknown]:  62
-Is CN=Pokdex, OU=Pokdex, O=Pokdex, L=Yogyakarta, ST=Indonesia, C=62 correct?
+Is CN=Pokedex, OU=Pokedex, O=Pokedex, L=Yogyakarta, ST=Indonesia, C=62 correct?
   [no]:  y
 ```
 
